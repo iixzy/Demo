@@ -1,4 +1,4 @@
-package main.com;
+package main.com.lol;
 
 /**
  * LOL英雄类

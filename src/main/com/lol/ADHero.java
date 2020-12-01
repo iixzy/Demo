@@ -1,9 +1,9 @@
-package main.com;
+package main.com.lol;
 
 /**
  * AD 英雄
  */
-public class ADHero extends Hero implements AD{
+public class ADHero extends Hero implements AD {
     @Override
     public void physicAttack() {
         System.out.println("进行物理攻击");

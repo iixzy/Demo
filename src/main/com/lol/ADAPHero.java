@@ -1,4 +1,4 @@
-package main.com;
+package main.com.lol;
 
 //同时能进行物理和魔法伤害的英雄
 public class ADAPHero extends Hero implements AD,AP,Mortal{
@@ -21,5 +21,10 @@ public class ADAPHero extends Hero implements AD,AP,Mortal{
     @Override
     public void die() {
         System.out.println("ADAPHero die 了");
+    }
+
+    @Override
+    public void attack() {
+
     }
 }

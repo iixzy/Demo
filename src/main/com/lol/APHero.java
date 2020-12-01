@@ -1,4 +1,4 @@
-package main.com;
+package main.com.lol;
 
 public class APHero extends Hero implements AP{
 

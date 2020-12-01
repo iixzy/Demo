@@ -1,6 +1,5 @@
-package main.com;
+package main.com.lol;
 
-import java.math.BigInteger;
 import java.util.Scanner;
 
 /**
