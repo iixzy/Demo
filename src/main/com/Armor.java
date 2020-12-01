@@ -1,7 +1,7 @@
 package main.com;
 
 /**
- * 护甲类
+ * LOL护甲类
  */
 public class Armor extends Item{
     /**

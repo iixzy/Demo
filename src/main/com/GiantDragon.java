@@ -2,6 +2,8 @@ package main.com;
 
 /**
  * 单例模式又叫做 Singleton模式，指的是一个类，在一个JVM里，只有一个实例存在。
+ *
+ * LOL大龙类
  */
 public class GiantDragon {
 

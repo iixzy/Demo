@@ -4,7 +4,7 @@ import java.math.BigInteger;
 import java.util.Scanner;
 
 /**
- * 物品类
+ * LOL物品类
  */
 public class Item {
 
