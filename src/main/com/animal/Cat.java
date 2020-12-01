@@ -1,4 +1,4 @@
-package main.com;
+package main.com.animal;
 
 /**
  *动物子类 猫类

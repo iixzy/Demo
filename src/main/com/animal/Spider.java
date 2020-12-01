@@ -1,6 +1,6 @@
-package main.com;
+package main.com.animal;
 
-public class Spider extends Animal{
+public class Spider extends Animal {
 
     public Spider(String name, int legs) {
         super(name, legs);

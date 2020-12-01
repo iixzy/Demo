@@ -1,4 +1,4 @@
-package main.com;
+package main.com.animal;
 
 /**
  *动物抽象类(超类)
