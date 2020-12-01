@@ -1,49 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </select>
+    <expand />
+    <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e836db4-0f26-44a9-ab44-1aa858dd074e" name="默认的" comment="2020年11月30日22:17:15">
-      <change afterPath="$PROJECT_DIR$/src/main/com/AD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/ADAPHero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/ADHero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/AP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/APHero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/Healer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/Mortal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/ReadFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/Support.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/线程.java" afterDir="false" />
+    <list default="true" id="3e836db4-0f26-44a9-ab44-1aa858dd074e" name="默认的" comment="日期类">
+      <change afterPath="$PROJECT_DIR$/src/main/com/string/IStringBuffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/string/MyStringBuffer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Demo/main/com/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/main/com/Animal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Demo/main/com/GiantDragon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/main/com/GiantDragon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Demo/main/com/Hero.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/main/com/Hero.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Demo/main/com/HeroType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/main/com/HeroType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Demo/main/com/Spider.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Demo/main/com/Spider.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/Armor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/Armor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/GiantDragon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/GiantDragon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/Hero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/HeroType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/HeroType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/Pet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/com/Spider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/Spider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/main/com/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/main/com/Armor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/main/com/GiantDragon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/main/com/Hero.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/main/com/HeroType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/main/com/Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Demo/main/com/Spider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/lol/ADHero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/lol/ADHero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/lol/APHero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/lol/APHero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/lol/Support.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/lol/Support.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +62,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/com" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -96,7 +72,7 @@
       <recent name="E:\developer\env\GitHub\src\main\com" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.Hero">
+  <component name="RunManager" selected="应用程序.TestDate">
     <configuration name="Animal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.com.Animal" />
       <module name="Demo" />
@@ -123,32 +99,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeroType" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.com.HeroType" />
-      <module name="Demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.com.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Item" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.com.Item" />
-      <module name="Demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.com.GiantDragon" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Spider" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.com.Spider" />
       <module name="Demo" />
@@ -162,13 +112,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestDate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.com.date.TestDate" />
+      <module name="Demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.com.date.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.com.number.TestNumber" />
+      <module name="Demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.com.number.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.TestDate" />
+        <item itemvalue="应用程序.TestNumber" />
         <item itemvalue="应用程序.Hero" />
         <item itemvalue="应用程序.Animal" />
         <item itemvalue="应用程序.Spider" />
-        <item itemvalue="应用程序.HeroType" />
-        <item itemvalue="应用程序.Item" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +164,21 @@
       <option name="project" value="LOCAL" />
       <updated>1606745857370</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="数字类">
+      <created>1606813458334</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606813458334</updated>
+    </task>
+    <task id="LOCAL-00003" summary="日期类">
+      <created>1606813474672</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606813474672</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -217,62 +207,65 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2020年11月30日22:17:15" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020年11月30日22:17:15" />
+    <MESSAGE value="数字类" />
+    <MESSAGE value="日期类" />
+    <option name="LAST_COMMIT_MESSAGE" value="日期类" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="718" y="151" key="#com.intellij.ide.util.MemberChooser" timestamp="1606789451205">
+    <state x="718" y="151" key="#com.intellij.ide.util.MemberChooser" timestamp="1606792506841">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="574" y="120" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1606745483829" />
-    <state x="718" y="151" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1606789451205" />
+    <state x="718" y="151" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1606792506841" />
     <state x="549" y="156" key="FileChooserDialogImpl" timestamp="1606745625135">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="156" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1606745625135" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1606789443260">
+    <state width="1232" height="348" key="GridCell.Tab.0.bottom" timestamp="1606813360328">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606745537233" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606789443260" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1606789443259">
+    <state width="1232" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606813360328" />
+    <state width="1232" height="348" key="GridCell.Tab.0.center" timestamp="1606813360328">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1606745537232" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606789443259" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1606789443259">
+    <state width="1232" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606813360328" />
+    <state width="1232" height="348" key="GridCell.Tab.0.left" timestamp="1606813360328">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1606745537232" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606789443259" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1606789443259">
+    <state width="1232" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606813360328" />
+    <state width="1232" height="348" key="GridCell.Tab.0.right" timestamp="1606813360328">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1606745537233" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606789443259" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1606789443260">
+    <state width="1232" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606813360328" />
+    <state width="0" height="0" key="GridCell.Tab.1.bottom" timestamp="1606813360211">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606745537233" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606789443260" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1606789443260">
+    <state width="0" height="0" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606813360211" />
+    <state width="0" height="0" key="GridCell.Tab.1.center" timestamp="1606813360211">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1606745537233" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606789443260" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1606789443260">
+    <state width="0" height="0" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606813360211" />
+    <state width="0" height="0" key="GridCell.Tab.1.left" timestamp="1606813360211">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1606745537233" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606789443260" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1606789443260">
+    <state width="0" height="0" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606813360211" />
+    <state width="0" height="0" key="GridCell.Tab.1.right" timestamp="1606813360211">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1606745537233" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606789443260" />
-    <state x="272" y="58" key="SettingsEditor" timestamp="1606745612639">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="0" height="0" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606813360211" />
+    <state x="340" y="73" key="SettingsEditor" timestamp="1606813520397">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="272" y="58" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1606745612639" />
+    <state x="340" y="73" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1606813520397" />
     <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1606746172904">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

@@ -4,6 +4,15 @@ package main.com.lol;
  * AD 英雄
  */
 public class ADHero extends Hero implements AD {
+    public ADHero() {
+        super();
+    }
+
+    @Override
+    public void attack() {
+
+    }
+
     @Override
     public void physicAttack() {
         System.out.println("进行物理攻击");
