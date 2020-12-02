@@ -1,5 +1,7 @@
 package main.com.lol;
 
+import main.com.exception.EnemyHeroIsDeadException;
+
 /**
  * LOL英雄类
  */
@@ -29,6 +31,16 @@ public abstract class Hero {
         return instance;
     }
 
+    /**
+     * 异常判断方法
+     * @param h
+     * @throws EnemyHeroIsDeadException
+     */
+    public void attackHero(Hero h) throws EnemyHeroIsDeadException {
+        if(h.hp == 0){
+            throw new EnemyHeroIsDeadException(h.name + " 已经挂了,不需要施放技能");
+        }
+    }
 
 //    内部类分为四种：
 //    1. 非静态内部类
@@ -198,6 +210,38 @@ public abstract class Hero {
     //通过类就可以直接调用
     public static void battleWin(){
         System.out.println("hero battle win");
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public float getHp() {
+        return hp;
+    }
+
+    public void setHp(float hp) {
+        this.hp = hp;
+    }
+
+    public float getArmor() {
+        return armor;
+    }
+
+    public void setArmor(float armor) {
+        this.armor = armor;
+    }
+
+    public int getMoveSpeed() {
+        return moveSpeed;
+    }
+
+    public void setMoveSpeed(int moveSpeed) {
+        this.moveSpeed = moveSpeed;
     }
 
 
