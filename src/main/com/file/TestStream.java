@@ -1,9 +1,13 @@
 package main.com.file;
 
+import com.sun.org.apache.xpath.internal.operations.Or;
+import main.com.lol.APHero;
+import main.com.lol.Hero;
 import sun.nio.cs.ext.GBK;
 
 import java.io.*;
 import java.nio.charset.Charset;
+import java.util.Scanner;
 
 /**
  * 什么是流(Stream)，流就是一系列的数据
@@ -475,6 +479,116 @@ public class TestStream {
 //        DataInputStream 数据输入流
 //        DataOutputStream 数据输出流
 
+//        使用数据流的writeUTF()和readUTF() 可以进行数据的格式化顺序读写
+//        如本例，通过DataOutputStream 向文件顺序写出 布尔值，整数和字符串。 然后再通过DataInputStream 顺序读入这些数据。
+//        注： 要用DataInputStream 读取一个文件，这个文件必须是由DataOutputStream 写出的，否则会出现EOFException，因为DataOutputStream 在写出的时候会做一些特殊标记，只有DataInputStream 才能成功的读取。
+//        write();
+//        read();
+//        练习-向文件中写入两个数字，然后把这两个数字分别读取出来
+//        要求
+//        第一种方式： 使用缓存流把两个数字以字符串的形式写到文件里，再用缓存流以字符串的形式读取出来，然后转换为两个数字。
+//        注： 两个数字之间要有分隔符用于区分这两个数字。 比如数字是31和15，如果不使用分隔符，那么就是3115，读取出来就无法识别到底是哪两个数字。 使用分隔符31@15能解决这个问题。
+//
+//        第二种方式： 使用数据流DataOutputStream向文件连续写入两个数字，然后用DataInpuStream连续读取两个数字
+
+
+//        对象流指的是可以直接把一个对象以流的形式传输给其他的介质，比如硬盘
+//        一个对象以流的形式进行传输，叫做序列化。 该对象所对应的类，必须是实现Serializable接口
+
+//        创建一个Hero对象，设置其名称为garen。
+//        把该对象序列化到一个文件garen.lol。
+//        然后再通过序列化把该文件转换为一个Hero对象
+//
+//        注：把一个对象序列化有一个前提是：这个对象的类，必须实现了Serializable接口
+
+        //创建一个Hero garen
+        //要把Hero对象直接保存在文件上，务必让Hero类实现Serializable接口
+
+//        Hero h = new APHero();
+//        h.setName("garen");
+//        h.setHp(616);
+//        //准备一个文件用于保存该对象
+//        File f =new File("d:/garen.lol");
+//        try(
+//                //创建对象输出流
+//                FileOutputStream fos = new FileOutputStream(f);
+//                ObjectOutputStream oos =new ObjectOutputStream(fos);
+//                //创建对象输入流
+//                FileInputStream fis = new FileInputStream(f);
+//                ObjectInputStream ois =new ObjectInputStream(fis);
+//        ) {
+//            oos.writeObject(h);
+//            Hero h2 = (Hero) ois.readObject();
+//            System.out.println(h2.getName());
+//            System.out.println(h2.getHp());
+//        } catch (IOException e) {
+//            // TODO Auto-generated catch block
+//            e.printStackTrace();
+//        } catch (ClassNotFoundException e) {
+//            // TODO Auto-generated catch block
+//            e.printStackTrace();
+//        }
+
+//        练习-序列化数组
+//        准备一个长度是10，类型是Hero的数组，使用10个Hero对象初始化该数组
+//        然后把该数组序列化到一个文件heros.lol
+//        接着使用ObjectInputStream 读取该文件，并转换为Hero数组，验证该数组中的内容，是否和序列化之前一样
+
+//        System.out 是常用的在控制台输出数据的
+//        System.in 可以从控制台输入数据
+
+        // 控制台输入
+//        try (InputStream is = System.in;) {
+//            while (true) {
+//                // 敲入a,然后敲回车可以看到
+//                // 97 13 10
+//                // 97是a的ASCII码
+//                // 13 10分别对应回车换行
+//                int i = is.read();
+//                System.out.println(i);
+//            }
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
+
+//        使用System.in.read虽然可以读取数据，但是很不方便
+//        使用Scanner就可以逐行读取了
+
+//        Scanner s = new Scanner(System.in);
+//
+//        while(true){
+//            String line = s.nextLine();
+//            System.out.println(line);
+//        }
+
+//        练习-自动创建类
+//        自动创建有一个属性的类文件。
+//        通过控制台，获取类名，属性名称，属性类型，根据一个模板文件，自动创建这个类文件，并且为属性提供setter和getter
+
+//        练习-复制文件
+//        复制文件是常见的IO操作，设计如下方法，实现复制源文件srcFile到目标文件destFile
+//        public static void copyFile(String srcFile, String destFile){
+//        }
+
+//        复制文件夹,实现如下方法，把源文件夹下所有的文件 复制到目标文件夹下(包括子文件夹)
+//        public static void copyFolder(String srcFolder, String destFolder){
+//
+//        }
+
+//        public static void search(File folder, String search);
+//        假设你的项目目录是 e:/project，遍历这个目录下所有的java文件（包括子文件夹），
+//        找出文件内容包括 Magic的那些文件，并打印出来。
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -482,6 +596,43 @@ public class TestStream {
 
 
     }
+
+    private static void read() {
+        File f =new File("d:/lol.txt");
+        try (
+                FileInputStream fis  = new FileInputStream(f);
+                DataInputStream dis =new DataInputStream(fis);
+        ){
+            boolean b= dis.readBoolean();
+            int i = dis.readInt();
+            String str = dis.readUTF();
+
+            System.out.println("读取到布尔值:"+b);
+            System.out.println("读取到整数:"+i);
+            System.out.println("读取到字符串:"+str);
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+    }
+
+    private static void write() {
+        File f =new File("d:/lol.txt");
+        try (
+                FileOutputStream fos  = new FileOutputStream(f);
+                DataOutputStream dos =new DataOutputStream(fos);
+        ){
+            dos.writeBoolean(true);
+            dos.writeInt(300);
+            dos.writeUTF("123 this is gareen");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+    }
+
+
 
     /**
      * 移除Java文件中的注释
