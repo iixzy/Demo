@@ -2,10 +2,15 @@ package main.com.lol;
 
 import main.com.exception.EnemyHeroIsDeadException;
 
+import java.io.Serializable;
+
 /**
  * LOL英雄类
  */
-public abstract class Hero {
+public abstract class Hero implements Serializable {
+
+    //表示这个类当前的版本，如果有了变化，比如新设计了属性，就应该修改这个版本号
+    private static final long serialVersionUID = 1L;
 
     String name ; //姓名
 
@@ -25,6 +30,18 @@ public abstract class Hero {
 
     public Hero () {
 
+    }
+
+    // 增加一个初始化name的构造方法
+    public Hero(String name) {
+
+        this.name = name;
+    }
+
+    // 重写toString方法
+    @Override
+    public String toString() {
+        return name;
     }
 
     public static Hero getInstance(){

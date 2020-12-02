@@ -8,6 +8,11 @@ public class ADHero extends Hero implements AD {
         super();
     }
 
+    public ADHero(String name) {
+        super(name);
+    }
+
+
     @Override
     public void attack() {
 

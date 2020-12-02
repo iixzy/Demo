@@ -5,6 +5,11 @@ public class APHero extends Hero implements AP{
         super();
     }
 
+    public APHero(String name) {
+        super(name);
+    }
+
+
     @Override
     public void attack() {
 
