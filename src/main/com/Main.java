@@ -1,5 +1,8 @@
 package main.com;
 
+/**
+ * @author Administrator
+ */
 public class Main {
 //    final修饰类，方法，基本类型变量，引用的时候分别有不同的意思。
     /*1. final修饰类
